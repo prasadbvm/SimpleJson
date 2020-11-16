@@ -1,0 +1,49 @@
+{
+  "output": [
+    {
+      "RequestId": 384,
+      "RequestTypeId": 1,
+      "accountNum": "A0369",
+      "accountName": "AFM Manual Testing JMH",
+      "accountEngineerName": null,
+      "clientNm": "Test Client Name",
+      "streetAddress": "4010 Lily Avenue",
+      "city": "Johnston",
+      "stateProvinceId": 629,
+      "countyId": 9920,
+      "postalCode": "02919-7132",
+      "countryId": 225,
+      "createBy": "abc@xyz.com",
+      "createDt": "2020-04-21T19:46:07.653389Z",
+      "updateBy": "abc@xyz.com",
+      "updateDt": "2020-04-21T19:46:07.653389Z",
+      "addressComment": null
+    }
+  ],
+  "repositoryLog": {
+    "scenarioInfo": "xyz",
+    "moqTransactions": [
+      {
+        "methodSignature": "ISet<MyDetails> IMyRepository.GetMyDetails( Int32 orgId,  ISet<MyInfo> MyInfoes,  DataTransactionLogModel transactionLog)",
+        "caller": "Task MyLogic.FetchAndAppendMyDetails( ISet<MyInfo> MyInfoes,  Nullable<MyInfoBranch> branchesToLoad,  DataTransactionLogModel transactionLog)",
+        "inputParams": [
+          {
+            "type": "Int32",
+            "name": "orgId",
+            "data": "258796"
+          },
+          {
+            "type": "ISet<MyInfo>",
+            "name": "MyInfoes",
+            "data": "[\n  {\n    \"AddressDetails\": {\n      \"AddressLine1\": \"270 Central Avenue\",\n      \"AddressLine2\": null,\n      \"AddressLine3\": null,\n      \"AddressLine4\": null,\n      \"CityNm\": \"Johnston\",\n      \"CountryId\": 222,\n      \"CountyId\": null,\n      \"CountyNm\": \"Providence\",\n      \"PoBoxTxt\": null,\n      \"PostalCode\": \"02919-4949\",\n      \"StateProvinceId\": 1138,\n      \"StreetTxt\": \"270 Central Avenue\"\n    },\n    \"ClientNm\": \"FMG ST1\"\n  },\n  {\n    \"AddressDetails\": {\n      \"AddressLine1\": \"98 Nipmuc Trail # D\",\n      \"AddressLine2\": null,\n      \"AddressLine3\": null,\n      \"AddressLine4\": null,\n      \"CityNm\": \"North Providence\",\n      \"CountryId\": 222,\n      \"CountyId\": null,\n      \"CountyNm\": \"Providence\",\n      \"PoBoxTxt\": null,\n      \"PostalCode\": \"02904-3151\",\n      \"StateProvinceId\": 1138,\n      \"StreetTxt\": \"98 Nipmuc Trail # D\"\n    },\n    \"ClientNm\": \"FMG ST17\"\n  },\n  {\n    \"AddressDetails\": {\n      \"AddressLine1\": \"9 Nipmuc Trail # A\",\n      \"AddressLine2\": null,\n      \"AddressLine3\": null,\n      \"AddressLine4\": null,\n      \"CityNm\": \"North Providence\",\n      \"CountryId\": 222,\n      \"CountyId\": null,\n      \"CountyNm\": \"Providence\",\n      \"PoBoxTxt\": null,\n      \"PostalCode\": \"02904-3149\",\n      \"StateProvinceId\": 1138,\n      \"StreetTxt\": \"9 Nipmuc Trail # A\"\n    },\n    \"ClientNm\": \"FMG ST18\"\n  }\n]"
+          }
+        ],
+        "returnData": {
+          "type": "ISet<MyDetails>",
+          "name": null,
+          "data": "[\n  {\n    \"AddressDetails\": {\n      \"AddressLine1\": \"270 Central Avenue\",\n      \"AddressLine2\": null,\n      \"AddressLine3\": null,\n      \"AddressLine4\": null,\n      \"CityNm\": \"Johnston\",\n      \"CountryId\": 222,\n      \"CountyId\": null,\n      \"CountyNm\": \"Providence\",\n      \"PoBoxTxt\": null,\n      \"PostalCode\": \"02919-4949\",\n      \"StateProvinceId\": 1138,\n      \"StreetTxt\": \"270 Central Avenue\"\n    },\n    \"ClientNm\": \"FMG ST1\"\n  },\n  {\n    \"AddressDetails\": {\n      \"AddressLine1\": \"98 Nipmuc Trail # D\",\n      \"AddressLine2\": null,\n      \"AddressLine3\": null,\n      \"AddressLine4\": null,\n      \"CityNm\": \"North Providence\",\n      \"CountryId\": 222,\n      \"CountyId\": null,\n      \"CountyNm\": \"Providence\",\n      \"PoBoxTxt\": null,\n      \"PostalCode\": \"02904-3151\",\n      \"StateProvinceId\": 1138,\n      \"StreetTxt\": \"98 Nipmuc Trail # D\"\n    },\n    \"ClientNm\": \"FMG ST17\"\n  },\n  {\n    \"AddressDetails\": {\n      \"AddressLine1\": \"9 Nipmuc Trail # A\",\n      \"AddressLine2\": null,\n      \"AddressLine3\": null,\n      \"AddressLine4\": null,\n      \"CityNm\": \"North Providence\",\n      \"CountryId\": 222,\n      \"CountyId\": null,\n      \"CountyNm\": \"Providence\",\n      \"PoBoxTxt\": null,\n      \"PostalCode\": \"02904-3149\",\n      \"StateProvinceId\": 1138,\n      \"StreetTxt\": \"9 Nipmuc Trail # A\"\n    },\n    \"ClientNm\": \"FMG ST18\"\n  }\n]"
+        }
+      }
+    ]
+  }
+}
